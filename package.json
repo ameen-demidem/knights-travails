@@ -12,5 +12,12 @@
     "devDependencies": {
         "jest": "^27.2.4"
     },
-    "jest": { "modulePaths": [ "src" ] }
+    "jest": {
+        "modulePaths": [
+            "src"
+        ]
+    },
+    "dependencies": {
+        "chess.js": "^0.12.0"
+    }
 }
