@@ -5,7 +5,7 @@ const start = process.argv[2];
 const end = process.argv[3];
 
 if (!start || !end) {
-    console.log('Please, provide a starting and an ending position');
+    console.log('Please, provide a starting and an ending position, e.g.: a1 c3');
     process.exit(1);
 }
 
