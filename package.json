@@ -1,0 +1,16 @@
+{
+    "name": "knigths-travails",
+    "version": "1.0.0",
+    "description": "A Solution To The Knight’s Travails Problem",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "jest --watch"
+    },
+    "author": "Ameen Demidem (ameen.demidem@gmail.com)",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.2.4"
+    },
+    "jest": { "modulePaths": [ "src" ] }
+}
